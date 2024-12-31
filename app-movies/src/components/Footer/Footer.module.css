@@ -1,14 +1,13 @@
 .footer {
-    background-color: black;
-    border-top: 2px solid #f44336;
-    position: absolute;
-    padding-block: 0.5rem; /*PaddinBlock es un padding solo para cima y para baixo, para que nao gere uma barra de rolagem lateral*/
-    width: 100%;
-    text-align: center;
+  background-color: black;
+  border-top: 2px solid #f44336;
+  padding-block: 0.5rem;
+  width: 100%;
+  text-align: center;
 }
 
 .footer span {
-    font-size: 1rem;
-    color: white;
-    font-weight: 200;   
+  font-size: 1rem;
+  color: white;
+  font-weight: 200;
 }
