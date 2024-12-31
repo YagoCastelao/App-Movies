@@ -5,10 +5,15 @@
     background-color: #222;
     color: #fff;
     text-align: center;
-    min-height: calc(100vh - 4.25rem);
+    min-height: calc(100vh - 4.25rem)
+}
+
+.container h2 {
+    padding-block: 2rem;
 }
 
 .error {
     width: 650px;
     height: 650px;
+    padding-bottom: 2rem;
 }
