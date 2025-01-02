@@ -1,19 +1,14 @@
+import { Link } from "react-router-dom";
 import styles from "./Card.module.css";
 
 const Card = ({ id }) => {
-    return (
-        <section className={styles.card}>
-            <a 
-            href={`https://youtu.be/${id}?si=LUC2UjLslpbWKmwS`}
-            rel="noreferrer noopener"  
-            target="_blank">   
-                <img src={`https://i.ytimg.com/vi/${id}/mqdefault.jpg`} alt="Capa"/>
-            </a>
-        </section>
-    );
+  return (
+    <section className={styles.card}>
+      <Link to={`/watch/${id}`}>
+        <img src={`https://i.ytimg.com/vi/${id}/mqdefault.jpg`} alt="Capa" />
+      </Link>
+    </section>
+  );
 };
 
 export default Card;
-
-
-
