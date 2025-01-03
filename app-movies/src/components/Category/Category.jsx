@@ -6,8 +6,8 @@ export const categories = [
   "Anime",
   "Lo mejor de Hollywood",
   "Para toda la familia",
-  "Climatologia, Meteorologia, Vegetação",
-  "Geologia e Hidrografia",
+  "Lo mas aterrador",
+  "Espacio y ciencia ficción",
 ];
 
 export const filterCategory = (id) => {
