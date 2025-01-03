@@ -4,8 +4,8 @@ import videos from "../../json/videos.json";
 
 export const categories = [
   "Anime",
-  "Como fazer e usar",
-  "Astronomia e Geografia",
+  "Lo mejor de Hollywood",
+  "Para toda la familia",
   "Climatologia, Meteorologia, Vegetação",
   "Geologia e Hidrografia",
 ];

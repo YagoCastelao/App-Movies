@@ -1,25 +1,34 @@
 .header {
-    background-color: black;
-    border-bottom: 2px solid #f44336;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 58px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  background-color: black;
+  border-bottom: 2px solid #f44336;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .header span {
-    font-size: 2rem;
-    color: #b71c1c;
-    font-weight: 500;   
+  font-size: 2rem;
+  color: #b71c1c;
+  font-weight: 500;
 }
 
 .header a {
-    text-decoration: none;
-    color: white;
-    padding-inline: 0.5rem;
-    font-weight: 200;
-    font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  padding-inline: 0.5rem;
+  font-weight: 200;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgba(255, 0, 0, 0.8);
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 
+                0 0 20px rgba(255, 0, 0, 1), 
+                0 0 30px rgba(255, 0, 0, 1);
 }

@@ -11,4 +11,39 @@
   font-size: 1rem;
   color: white;
   font-weight: 400;
+  gap: 5px
+  ;
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-block: 7px;
+}
+
+.social_list li {
+    margin:  0 1em;
+}
+
+.social_list li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social_list li a:visited {
+    color: #fff;
+}
+
+.social_list li a:hover {
+  color: rgba(255, 0, 0, 0.8);
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 
+               0 0 20px rgba(255, 0, 0, 1), 
+               0 0 30px rgba(255, 0, 0, 1); 
+}
+
+.social_list svg {
+    font-size: 1.2em;
+    cursor: pointer;
 }
