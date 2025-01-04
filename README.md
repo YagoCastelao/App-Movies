@@ -20,7 +20,11 @@ Este Proyecto se realizó como un intento de crear una aplicación web similar a
 - **React Icons**: Íconos para la interfaz.
 - **React Slick**: Carrusel responsivo para React.
 - **React Api**: Api Context.
- 
+
+## 🛠️ Extensiones Utilizadas (Google Chrome)
+- **React Context Devtool**;
+- **React Developer Tools**;
+
 ## ⚙️ Instalación
 1. Clona este repositorio:
    ```bash
