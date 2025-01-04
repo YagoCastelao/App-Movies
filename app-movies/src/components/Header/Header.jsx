@@ -12,8 +12,8 @@ const Header = () => {
         <Link to="/">
           Home
         </Link>
-        <Link to="/watch">
-          Assistir
+        <Link to="/favorites">
+          Favoritos
         </Link>
         <Link to="/search">
           Buscar
