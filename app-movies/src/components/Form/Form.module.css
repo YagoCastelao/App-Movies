@@ -57,3 +57,16 @@
 .container button:hover {
     background-color: #f44336;
 }
+
+.error {
+    width: 450px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b71c1c6b;
+    border-radius: 10px;
+    font-weight: 600;
+    padding-block: .5em;
+}
